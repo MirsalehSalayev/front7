@@ -1,0 +1,25 @@
+
+    .ourCardDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ourImageDetail{
+            .ourImgDetail{
+
+                width: 349px;
+                height: 349px;
+            }
+        }
+        .ourButtonsDetail{
+            display: flex;
+            gap:10px;
+            .ourButtonDetail{
+                color: white;
+                background-color: black;
+                border: 1px solid white;
+                width: 77px;
+                height: 34px;
+
+            }
+        }
+    }

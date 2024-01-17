@@ -1,0 +1,30 @@
+.ourBasket{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+    .ourCardBasket{
+        display: flex;
+flex-direction: column;        
+        align-items: center;
+        .ourImageBasket{
+            .ourImgBasket{
+
+                width: 349px;
+                height: 349px;
+            }
+        }
+        .ourButtonsBasket{
+            display: flex;
+            gap:10px;
+            .ourButtonBasket{
+                color: white;
+                background-color: black;
+                border: 1px solid white;
+                width: 77px;
+                height: 34px;
+
+            }
+        }
+    }
+}

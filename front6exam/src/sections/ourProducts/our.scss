@@ -1,0 +1,31 @@
+.ourSection{
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    .ourCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ourImage{
+            .ourImg{
+
+                width: 349px;
+                height: 349px;
+            }
+        }
+        .ourButtons{
+            display: flex;
+            gap:10px;
+            .ourButton{
+                color: white;
+                background-color: black;
+                border: 1px solid white;
+                width: 77px;
+                height: 34px;
+
+            }
+        }
+    }
+}
